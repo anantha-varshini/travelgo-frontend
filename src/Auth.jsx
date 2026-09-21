@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API_URL="https://travelgo-backend-1.onrender.com/"
+const API_URL="https://travelgo-backend-five.vercel.app/"
 
 export const register=async(username,password)=>{
 

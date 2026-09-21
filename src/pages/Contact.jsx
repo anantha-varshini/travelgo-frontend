@@ -15,7 +15,7 @@ const Contact = () => {
     }
 
     try {
-      const res = await fetch('https://travelgo-backend-1.onrender.com/contact', {
+      const res = await fetch('https://travelgo-backend-five.vercel.app//contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'

@@ -19,7 +19,7 @@ const Bookings = () => {
     }
 
     try {
-      const res = await fetch('https://travelgo-backend-1.onrender.com/bookings', {
+      const res = await fetch('https://travelgo-backend-five.vercel.app/bookings', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
