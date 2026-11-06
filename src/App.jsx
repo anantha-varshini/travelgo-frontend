@@ -39,10 +39,9 @@ function AppContent() {
 
   const location = useLocation()
 
-  const hideLayout =
-  location.pathname === '/'|| 
+  const hideLayout = 
     location.pathname === '/login' ||
-    location.pathname === '/register'
+    location.pathname === '/register';
 
   return (
     <>
@@ -50,9 +49,9 @@ function AppContent() {
       {!hideLayout && <Navbar />}
 
       <Routes>
-        <Route path="/"element={<Register/>}/>
+        <Route path="/"element={<Home/>}/>
 
-        <Route path="/home" element={<Home />} />
+        <Route path="/register" element={<Register/>} />
 
         <Route path="/register" element={<Register />} />
 
