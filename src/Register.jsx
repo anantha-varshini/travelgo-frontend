@@ -88,7 +88,7 @@ const Register = () => {
             console.log("Registration Error", err);
 
             setError({
-                server: "Registration Failed"
+                server: err.message
             });
 
             setSuccess("");
